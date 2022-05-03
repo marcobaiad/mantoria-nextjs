@@ -1,0 +1,29 @@
+.mi-ul {
+  background-color: lightblue; 
+  color: black;
+  font-weight: bold; 
+}
+
+#id-de-mi-ul {
+  list-style: none;
+}
+
+.mi-ul > :first-child  {
+  background-color: red; 
+}
+
+.mi-ul li::selection  {
+  color: green;
+  background-color: white;
+
+}
+
+.seccion-ul ul:hover {
+  color: purple; 
+}
+
+.seccion-ul ul li:hover {
+  /* font-weight: bold;  */
+  color: black;
+  background-color: yellow; 
+}
